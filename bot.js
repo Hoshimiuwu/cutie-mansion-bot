@@ -8,7 +8,7 @@ bot.commands = new Discord.Collection();
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!`);
-    bot.user.setActivity("Prefix is - <3", {
+    bot.user.setActivity("Prefix is .. <3", {
         type: "STREAMING",
         url: "https://www.twitch.tv/Jumpyuwu"
       });
